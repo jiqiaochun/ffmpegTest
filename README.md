@@ -20,7 +20,7 @@ include“libavformat/avformat.h” file not found  错误
 
 根据Library Search Paths 中的lib的路径：修改Header Search Paths 中，再将lib改为include
 改好如下：
-![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/headersearch.jepg)
+![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/headersearch.jpeg)
 
 
 三，导入其他库文件
