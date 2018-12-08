@@ -45,3 +45,7 @@ include“libavformat/avformat.h” file not found  错误
 
 self.playUrl = @"rtsp://xxx.xxx.xxx.xxx/xxx.sdp";
 
+最后若遇到如下错误：
+/Users/xxxx/Library/Developer/Xcode/DerivedData/ffmpeg Test-bmhrdaguuhstmweukzljerwnqabt/Build/Products/Debug-iphoneos/ffmpegTest.app/ffmpegTest normal arm64 (in target: ffmpegTest)
+解决办法：
+导入VideoToolbox.framework
