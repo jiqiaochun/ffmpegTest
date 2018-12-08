@@ -5,7 +5,7 @@
 终端进入刚刚下载后的脚本文件夹下，运行sh：build－ffmpeg.sh 自动编译，有缺少yasm的按照提示操作，安装yasm
 
 按照脚本编译完后的静态库目录如下：
-![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/lujing.jepg)
+![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/lujing.jpeg)
 
 其中的.a文件为静态库文件，include文件夹内的是头文件
 
