@@ -28,7 +28,7 @@ include“libavformat/avformat.h” file not found  错误
 其中libz.tbd libbz2.tbd libiconv.tbd 貌似是必须要导入的，其他的按照需求配置
 
 个人配置好后的如下供参考：
-![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/link.jepg)
+![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/link.jpeg)
 
 
 四，将第三方代码导入工程
