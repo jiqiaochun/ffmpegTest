@@ -49,3 +49,9 @@ self.playUrl = @"rtsp://xxx.xxx.xxx.xxx/xxx.sdp";
 /Users/xxxx/Library/Developer/Xcode/DerivedData/ffmpeg Test-bmhrdaguuhstmweukzljerwnqabt/Build/Products/Debug-iphoneos/ffmpegTest.app/ffmpegTest normal arm64 (in target: ffmpegTest)
 解决办法：
 导入VideoToolbox.framework
+错误2：
+ignoring file /Users/qiaochunji/Downloads/ffmpegTest-master/FFmpeg-iOS/lib/libavdevice.a, file was built for unsupported file format ( 0x76 0x65 0x72 0x73 0x69 0x6F 0x6E 0x20 0x68 0x74 0x74 0x70 0x73 0x3A 0x2F 0x2F ) which is not the architecture being linked (arm64): /Users/qiaochunji/Downloads/ffmpegTest-master/FFmpeg-iOS/lib/libavdevice.a
+解决办法：
+编译脚本https://github.com/kewlbear/FFmpeg-iOS-build-script；生成的FFmpeg-iOS文件夹 替换工程中的FFmpeg-iOS文件夹。此原因是因为文件中libavdevice.a大于100M,上传github中设置忽略引起
+![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/headersearch.jpeg)的
+![image](https://github.com/jiqiaochun/ffmpegTest/blob/master/image/headersearch.jpeg)
