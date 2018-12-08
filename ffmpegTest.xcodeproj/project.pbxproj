@@ -22,6 +22,10 @@
 		5D3F4BCE21BA1CBE00D18E2A /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D3F4BC721BA1CBE00D18E2A /* libswscale.a */; };
 		5D7B19B521BA574B0002CFCE /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7B19B421BA574B0002CFCE /* BaseNavigationViewController.m */; };
 		5D7B19B821BB59330002CFCE /* lujing.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B19B721BB59320002CFCE /* lujing.jpeg */; };
+		5D7B19C321BBA67D0002CFCE /* headersearch.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B19BF21BBA67D0002CFCE /* headersearch.jpeg */; };
+		5D7B19C421BBA67D0002CFCE /* FFMpegDecoder.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B19C021BBA67D0002CFCE /* FFMpegDecoder.png */; };
+		5D7B19C521BBA67D0002CFCE /* ffmpeg-ios.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B19C121BBA67D0002CFCE /* ffmpeg-ios.jpeg */; };
+		5D7B19C621BBA67D0002CFCE /* link.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5D7B19C221BBA67D0002CFCE /* link.jpeg */; };
 		5DBF789F21BA23210079B54F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBF789E21BA23210079B54F /* libz.tbd */; };
 		5DBF78A121BA23350079B54F /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBF78A021BA23340079B54F /* libiconv.tbd */; };
 		5DBF78A321BA23410079B54F /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DBF78A221BA23400079B54F /* libbz2.tbd */; };
@@ -187,6 +191,10 @@
 		5D7B19B321BA574B0002CFCE /* BaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavigationViewController.h; sourceTree = "<group>"; };
 		5D7B19B421BA574B0002CFCE /* BaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationViewController.m; sourceTree = "<group>"; };
 		5D7B19B721BB59320002CFCE /* lujing.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lujing.jpeg; sourceTree = "<group>"; };
+		5D7B19BF21BBA67D0002CFCE /* headersearch.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = headersearch.jpeg; sourceTree = "<group>"; };
+		5D7B19C021BBA67D0002CFCE /* FFMpegDecoder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FFMpegDecoder.png; sourceTree = "<group>"; };
+		5D7B19C121BBA67D0002CFCE /* ffmpeg-ios.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ffmpeg-ios.jpeg"; sourceTree = "<group>"; };
+		5D7B19C221BBA67D0002CFCE /* link.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = link.jpeg; sourceTree = "<group>"; };
 		5DBF789E21BA23210079B54F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		5DBF78A021BA23340079B54F /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		5DBF78A221BA23400079B54F /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
@@ -499,6 +507,10 @@
 		5D7B19B621BB59320002CFCE /* image */ = {
 			isa = PBXGroup;
 			children = (
+				5D7B19C121BBA67D0002CFCE /* ffmpeg-ios.jpeg */,
+				5D7B19C021BBA67D0002CFCE /* FFMpegDecoder.png */,
+				5D7B19BF21BBA67D0002CFCE /* headersearch.jpeg */,
+				5D7B19C221BBA67D0002CFCE /* link.jpeg */,
 				5D7B19B721BB59320002CFCE /* lujing.jpeg */,
 			);
 			path = image;
@@ -634,8 +646,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D7B19C321BBA67D0002CFCE /* headersearch.jpeg in Resources */,
 				5D7B19B821BB59330002CFCE /* lujing.jpeg in Resources */,
 				5D3F4B2021BA1C7A00D18E2A /* Assets.xcassets in Resources */,
+				5D7B19C421BBA67D0002CFCE /* FFMpegDecoder.png in Resources */,
+				5D7B19C521BBA67D0002CFCE /* ffmpeg-ios.jpeg in Resources */,
+				5D7B19C621BBA67D0002CFCE /* link.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
